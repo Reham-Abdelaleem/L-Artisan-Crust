@@ -9,7 +9,9 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Cairo:wght@300;400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Cairo:wght@300;400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+    rel="stylesheet">
 
   <!-- Bootstrap 5 RTL -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" />
@@ -18,7 +20,8 @@
 
   <!-- Owl Carousel CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
@@ -27,12 +30,12 @@
 <body>
 
   <!-- ═══════ NAVBAR ═══════ -->
-  <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 start-0 end-0">
+  <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 start-0 end-0 py-3 px-0">
     <div class="container">
 
-      <a class="navbar-brand-logo" href="#hero">
+      <a class="navbar-brand-logo text-decoration-none fw-bold" href="#hero">
         L'Artisan Crust
-        <span>Boulangerie & Pâtisserie de Luxe</span>
+        <span class="fw-light fst-italic d-block text-uppercase">Boulangerie & Pâtisserie de Luxe</span>
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
@@ -42,36 +45,36 @@
 
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-1">
-          <li class="nav-item"><a class="nav-link" href="#hero">الرئيسية</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">معرض الأعمال</a></li>
-          <li class="nav-item"><a class="nav-link" href="#reviews">آراء العملاء</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#hero">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#about">من نحن</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#portfolio">معرض الأعمال</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#reviews">آراء العملاء</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#contact">تواصل معنا</a></li>
         </ul>
-        <a href="#contact" class="btn-nav">طلب الآن</a>
+        <a href="#contact" class="btn-nav fw-bold text-decoration-none">طلب الآن</a>
       </div>
 
     </div>
   </nav>
 
   <!-- ═══════ HERO ═══════ -->
-  <section id="hero">
-    <div class="hero-deco-1"></div>
-    <div class="hero-deco-2"></div>
+  <section id="hero" class="position-relative d-flex align-items-center overflow-hidden">
+    <div class="hero-deco-1 position-absolute rounded-circle opacity-50"></div>
+    <div class="hero-deco-2 position-absolute rounded-circle opacity-25"></div>
 
     <div class="container">
       <div class="row align-items-center g-5">
 
         <!-- Text -->
         <div class="col-lg-6">
-          <div class="hero-badge reveal">
+          <div class="hero-badge reveal d-inline-flex align-items-center gap-2 fw-bold mb-4 text-uppercase">
             <i class="bi bi-star-fill"></i>
-             مرحباً بك في L'Artisan Crust
+            مرحباً بك في L'Artisan Crust
           </div>
 
-          <h1 class="hero-title reveal" style="transition-delay:0.1s">
-            فن الخبز<br/>
-            يُجسّد <em class="highlight">الرقيّ</em><br/>
+          <h1 class="hero-title reveal fw-bolder" style="transition-delay:0.1s">
+            فن الخبز<br />
+            يُجسّد <em class="highlight fst-italic position-relative">الرقيّ</em><br />
             والأصالة
           </h1>
 
@@ -81,11 +84,11 @@
           </p>
 
           <div class="d-flex flex-wrap gap-3 reveal" style="transition-delay:0.3s">
-            <a href="#portfolio" class="btn-primary-cta">
+            <a href="#portfolio" class="btn-primary-cta text-decoration-none fw-bold d-inline-flex align-items-center">
               <i class="bi bi-grid-3x3-gap-fill"></i>
               اكتشف معرض أعمالنا
             </a>
-            <a href="#contact" class="btn-outline-cta">
+            <a href="#contact" class="btn-outline-cta text-decoration-none fw-bold d-inline-flex align-items-center">
               <i class="bi bi-telephone"></i>
               تواصل معنا
             </a>
@@ -94,14 +97,13 @@
 
         <!-- Images -->
         <div class="col-lg-6">
-          <div class="hero-img-wrap reveal-left">
-            <img class="hero-img-main"
-              src="images/hero-img-main.jfif"
-              alt="مخبوزات فرنسية فاخرة" />
-            <img class="hero-img-secondary"
-              src="images/hero-img-secondary.jfif"
-              alt="حلويات فاخرة" />
-            <div class="hero-img-accent">
+          <div class="hero-img-wrap reveal-left position-relative">
+            <img class="hero-img-main d-block w-75 position-absolute top-0 start-0 object-fit-cover"
+              src="images/hero-img-main.jfif" alt="مخبوزات فرنسية فاخرة" />
+            <img class="hero-img-secondary d-block position-absolute bottom-0 end-0 object-fit-cover"
+              src="images/hero-img-secondary.jfif" alt="حلويات فاخرة" />
+            <div
+              class="hero-img-accent position-absolute top-50 rounded-circle d-flex align-items-center justify-content-center">
               <i class="bi bi-heart-fill"></i>
             </div>
           </div>
@@ -110,98 +112,103 @@
       </div>
 
       <!-- Stats -->
-      <div class="hero-stats d-flex flex-wrap justify-content-around align-items-center reveal" style="transition-delay:0.4s">
+      <div class="hero-stats d-flex flex-wrap justify-content-around align-items-center reveal gap-3">
         <div class="text-center">
-          <div class="hero-stat-num" data-target="500" data-prefix="+" data-suffix="">+500</div>
-          <div class="hero-stat-label">وصفة حصرية</div>
+          <div class="hero-stat-num fs-2 fw-bold" data-target="500" data-prefix="+" data-suffix="">+500</div>
+          <div class="hero-stat-label mt-1">وصفة حصرية</div>
         </div>
-        <div class="hero-stat-divider"></div>
+        <div class="hero-stat-divider align-self-stretch"></div>
         <div class="text-center">
-          <div class="hero-stat-num" data-target="12" data-prefix="" data-suffix="+">12+</div>
-          <div class="hero-stat-label">سنة خبرة</div>
+          <div class="hero-stat-num fs-2 fw-bold" data-target="12" data-prefix="" data-suffix="+">12+</div>
+          <div class="hero-stat-label mt-1">سنة خبرة</div>
         </div>
-        <div class="hero-stat-divider"></div>
+        <div class="hero-stat-divider align-self-stretch"></div>
         <div class="text-center">
-          <div class="hero-stat-num" data-target="98" data-prefix="" data-suffix="%">98%</div>
-          <div class="hero-stat-label">رضا العملاء</div>
+          <div class="hero-stat-num fs-2 fw-bold" data-target="98" data-prefix="" data-suffix="%">98%</div>
+          <div class="hero-stat-label mt-1">رضا العملاء</div>
         </div>
-        <div class="hero-stat-divider"></div>
+        <div class="hero-stat-divider align-self-stretch"></div>
         <div class="text-center">
-          <div class="hero-stat-num" data-target="4.9" data-prefix="" data-suffix=" ★" style="color:var(--clr-gold)">4.9 ★</div>
-          <div class="hero-stat-label">تقييم المتجر</div>
+          <div class="hero-stat-num rate fs-2 fw-bold" data-target="4.9" data-prefix="" data-suffix=" ★">4.9 ★</div>
+          <div class="hero-stat-label mt-1">تقييم المتجر</div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ═══════ ABOUT ═══════ -->
-  <section id="about">
+  <section id="about" class="position-relative">
     <div class="container">
       <div class="row align-items-center g-5">
 
         <!-- Image -->
         <div class="col-lg-5 reveal-left">
-          <div class="about-img-wrap">
-            <img class="about-img-main"
-              src="https://images.unsplash.com/photo-1587248720327-8eb72564be1e?w=600&q=80"
-              alt="مطبخنا الحرفي" />
-            <div class="about-badge">
-              <div class="num">12+</div>
-              <div class="lbl">سنة في صنع<br/>الفرحة</div>
+          <div class="about-img-wrap position-relative">
+            <img class="about-img-main d-block w-100 object-fit-cover"
+              src="https://images.unsplash.com/photo-1587248720327-8eb72564be1e?w=600&q=80" alt="مطبخنا الحرفي" />
+            <div class="about-badge position-absolute text-center">
+              <div class="num fw-bold">12+</div>
+              <div class="lbl">سنة في صنع<br />الفرحة</div>
             </div>
           </div>
         </div>
 
         <!-- Text -->
         <div class="col-lg-7 reveal">
-          <div class="section-label">من نحن</div>
-          <h2 class="section-title">
-            حكاية <em>شغف</em><br/>بدأت من المطبخ
+          <div class="section-label d-inline-flex align-items-center gap-2 text-uppercase">من نحن</div>
+          <h2 class="section-title fw-bold mb-3">
+            حكاية <em class="fst-italic">شغف</em><br />بدأت من المطبخ
           </h2>
-          <p class="section-sub mb-4">
-            في L'Artisan Crust نؤمن أن كل منتج يحمل روحاً. نُوظّف أجود المكونات المختارة بعناية، ونمزجها بأسرار حرفيين درسوا فن الحلويات في أعرق المدارس الفرنسية — لنقدم لك تجربة تتجاوز التوقعات.          </p>
+          <p class="section-sub mb-4 fs-6">
+            في L'Artisan Crust نؤمن أن كل منتج يحمل روحاً. نُوظّف أجود المكونات المختارة بعناية، ونمزجها بأسرار حرفيين
+            درسوا فن الحلويات في أعرق المدارس الفرنسية — لنقدم لك تجربة تتجاوز التوقعات. </p>
 
-          <!-- <div class="about-feature">
-            <div class="about-icon"><i class="bi bi-flower3"></i></div>
+          <!-- <div class="about-feature d-flex align-items-start gap-3 mb-4">
+            <div class="about-icon d-flex align-items-center justify-content-center flex-shrink-0"><i class="bi bi-flower3"></i></div>
             <div>
-              <div class="about-feature-title">مكونات فاخرة</div>
+              <div class="about-feature-title fw-bold">مكونات فاخرة</div>
               <div class="about-feature-text">نستخدم أفضل المكونات المستوردة من فرنسا وإيطاليا وبلجيكا.</div>
             </div>
           </div> -->
 
-          <div class="about-feature">
-            <div class="about-icon"><i class="bi bi-hand-thumbs-up"></i></div>
+          <div class="about-feature d-flex align-items-start gap-3 mb-4">
+            <div class="about-icon d-flex align-items-center justify-content-center flex-shrink-0"><i
+                class="bi bi-hand-thumbs-up"></i></div>
             <div>
-              <div class="about-feature-title">صنع يدوي</div>
+              <div class="about-feature-title fw-bold">صنع يدوي</div>
               <div class="about-feature-text">كل منتج يُصنع بعناية فائقة من قبل فريق محترف ومتخصص.</div>
             </div>
           </div>
 
-          <div class="about-feature">
-            <div class="about-icon"><i class="bi bi-box-seam"></i></div>
+          <div class="about-feature d-flex align-items-start gap-3 mb-4">
+            <div class="about-icon d-flex align-items-center justify-content-center flex-shrink-0"><i
+                class="bi bi-box-seam"></i></div>
             <div>
-              <div class="about-feature-title">تغليف فاخر وتوصيل آمن</div>
-              <div class="about-feature-text">كل قطعة تُغلَّف بأناقة وتُوصَّل بعناية فائقة للحفاظ على جودتها حتى تصل إليك.</div>
+              <div class="about-feature-title fw-bold">تغليف فاخر وتوصيل آمن</div>
+              <div class="about-feature-text">كل قطعة تُغلَّف بأناقة وتُوصَّل بعناية فائقة للحفاظ على جودتها حتى تصل
+                إليك.</div>
             </div>
           </div>
 
-          <div class="about-feature">
-            <div class="about-icon"><i class="bi bi-box-seam"></i></div>
+          <div class="about-feature d-flex align-items-start gap-3 mb-4">
+            <div class="about-icon d-flex align-items-center justify-content-center flex-shrink-0"><i
+                class="bi bi-box-seam"></i></div>
             <div>
-              <div class="about-feature-title">توصيل سريع</div>
+              <div class="about-feature-title fw-bold">توصيل سريع</div>
               <div class="about-feature-text">نضمن توصيل طازج وآمن في أقرب وقت ممكن.</div>
             </div>
           </div>
 
-          <div class="about-feature">
-            <div class="about-icon"><i class="bi bi-heart"></i></div>
+          <div class="about-feature d-flex align-items-start gap-3 mb-4">
+            <div class="about-icon d-flex align-items-center justify-content-center flex-shrink-0"><i
+                class="bi bi-heart"></i></div>
             <div>
-              <div class="about-feature-title">رضا العميل</div>
+              <div class="about-feature-title fw-bold">رضا العميل</div>
               <div class="about-feature-text">رضاكم هو أولويتنا الأولى — نحن هنا لتحقيق أحلامكم.</div>
             </div>
           </div>
 
-          <!-- <a href="#portfolio" class="btn-primary-cta mt-2">
+          <!-- <a href="#portfolio" class="btn-primary-cta text-decoration-none fw-bold d-inline-flex align-items-center mt-2">
             <i class="bi bi-images"></i>
             تصفح أعمالنا
           </a> -->
@@ -212,31 +219,31 @@
   </section>
 
   <!-- ═══════ PORTFOLIO ═══════ -->
-  <section id="portfolio">
+  <section id="portfolio" class="position-relative">
     <div class="container">
 
       <div class="text-center mb-2 reveal">
-        <div class="section-label" style="justify-content:center">معرض الأعمال</div>
-        <h2 class="section-title">
-          إبداعاتنا <em>الحلوة</em>
+        <div class="section-label d-inline-flex align-items-center gap-2 text-uppercase">معرض الأعمال</div>
+        <h2 class="section-title fw-bold mb-3">
+          إبداعاتنا <em class="fst-italic">الحلوة</em>
         </h2>
-        <p class="section-sub mx-auto">
+        <p class="section-sub mx-auto fs-6">
           من أعماق مطابخنا إلى طاولتك — مجموعة منتقاة من أفخر ما أنتجناه
         </p>
       </div>
 
       <!-- Filter Buttons -->
-      <div class="filter-wrap reveal" style="transition-delay:0.1s">
-        <button class="filter-btn active" data-filter="all">الكل</button>
-        <button class="filter-btn" data-filter="french">مخبوزات فرنسية</button>
-        <button class="filter-btn" data-filter="oriental">حلويات شرقية</button>
-        <button class="filter-btn" data-filter="cakes">كيك وتورتات</button>
-        <button class="filter-btn" data-filter="chocolate">شوكولاتة فاخرة</button>
-        <button class="filter-btn" data-filter="seasonal">تشكيلة موسمية</button>
+      <div class="filter-wrap reveal d-flex flex-wrap justify-content-center mb-5" style="transition-delay:0.1s">
+        <button class="filter-btn fw-semibold active" data-filter="all">الكل</button>
+        <button class="filter-btn fw-semibold" data-filter="french">مخبوزات فرنسية</button>
+        <button class="filter-btn fw-semibold" data-filter="oriental">حلويات شرقية</button>
+        <button class="filter-btn fw-semibold" data-filter="cakes">كيك وتورتات</button>
+        <button class="filter-btn fw-semibold" data-filter="chocolate">شوكولاتة فاخرة</button>
+        <button class="filter-btn fw-semibold" data-filter="seasonal">تشكيلة موسمية</button>
       </div>
 
       <!-- Grid -->
-      <div class="portfolio-grid" id="portfolioGrid">
+      <div class="portfolio-grid d-grid mb-5" id="portfolioGrid">
         <!-- Cards inserted by JS -->
       </div>
 
@@ -244,58 +251,68 @@
   </section>
 
   <!-- ═══════ REVIEWS ═══════ -->
-  <section id="reviews">
+  <section id="reviews" class="position-relative overflow-y-hidden">
     <div class="container">
 
       <div class="text-center mb-2 reveal">
-        <div class="section-label" style="justify-content:center">آراء عملائنا</div>
-        <h2 class="section-title">ماذا يقول من <em>جرّبونا</em></h2>
-        <p class="section-sub mx-auto">كلماتهم هي أجمل جائزة نحصل عليها — من قلوبهم إلى مطبخنا</p>
+        <div class="section-label d-inline-flex align-items-center gap-2 text-uppercase">آراء عملائنا</div>
+        <h2 class="section-title fw-bold mb-3">ماذا يقول من <em class="fst-italic">جرّبونا</em></h2>
+        <p class="section-sub mx-auto fs-6">كلماتهم هي أجمل جائزة نحصل عليها — من قلوبهم إلى مطبخنا</p>
       </div>
 
       <!-- Overall Rating Bar -->
-      <div class="reviews-summary reveal" style="transition-delay:0.1s">
-        <div class="reviews-avg">
-          <div class="avg-num">4.9</div>
-          <div class="avg-stars">
+      <div class="reviews-summary reveal d-flex flex-wrap align-items-center mb-5">
+        <div class="reviews-avg text-center flex-shrink-0">
+          <div class="avg-num fw-bold">4.9</div>
+          <div class="avg-stars fs-6">
             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
             <i class="bi bi-star-half"></i>
           </div>
           <div class="avg-label">متوسط التقييم</div>
-          <div class="avg-count">بناءً على <strong>+2,400</strong> تقييم</div>
+          <div class="avg-count mt-1">بناءً على <strong>+2,400</strong> تقييم</div>
         </div>
-        <div class="reviews-bars">
-          <div class="rating-bar-row">
-            <span class="bar-label">5 ★</span>
-            <div class="bar-track"><div class="bar-fill" style="width:78%"></div></div>
-            <span class="bar-pct">78%</span>
+        <div class="reviews-bars flex-grow-1">
+          <div class="rating-bar-row d-flex align-items-center">
+            <span class="bar-label text-start flex-shrink-0">5 ★</span>
+            <div class="bar-track flex-grow-1 overflow-hidden">
+              <div class="bar-fill h-100" style="width:78%"></div>
+            </div>
+            <span class="bar-pct flex-shrink-0">78%</span>
           </div>
-          <div class="rating-bar-row">
-            <span class="bar-label">4 ★</span>
-            <div class="bar-track"><div class="bar-fill" style="width:15%"></div></div>
-            <span class="bar-pct">15%</span>
+          <div class="rating-bar-row d-flex align-items-center">
+            <span class="bar-label text-start flex-shrink-0">4 ★</span>
+            <div class="bar-track flex-grow-1 overflow-hidden">
+              <div class="bar-fill h-100" style="width:15%"></div>
+            </div>
+            <span class="bar-pct flex-shrink-0">15%</span>
           </div>
-          <div class="rating-bar-row">
-            <span class="bar-label">3 ★</span>
-            <div class="bar-track"><div class="bar-fill" style="width:5%"></div></div>
-            <span class="bar-pct">5%</span>
+          <div class="rating-bar-row d-flex align-items-center">
+            <span class="bar-label text-start flex-shrink-0">3 ★</span>
+            <div class="bar-track flex-grow-1 overflow-hidden">
+              <div class="bar-fill h-100" style="width:5%"></div>
+            </div>
+            <span class="bar-pct flex-shrink-0">5%</span>
           </div>
-          <div class="rating-bar-row">
-            <span class="bar-label">2 ★</span>
-            <div class="bar-track"><div class="bar-fill" style="width:1%"></div></div>
-            <span class="bar-pct">1%</span>
+          <div class="rating-bar-row d-flex align-items-center">
+            <span class="bar-label text-start flex-shrink-0">2 ★</span>
+            <div class="bar-track flex-grow-1 overflow-hidden">
+              <div class="bar-fill h-100" style="width:1%"></div>
+            </div>
+            <span class="bar-pct flex-shrink-0">1%</span>
           </div>
-          <div class="rating-bar-row">
-            <span class="bar-label">1 ★</span>
-            <div class="bar-track"><div class="bar-fill" style="width:1%"></div></div>
-            <span class="bar-pct">1%</span>
+          <div class="rating-bar-row d-flex align-items-center">
+            <span class="bar-label text-start flex-shrink-0">1 ★</span>
+            <div class="bar-track flex-grow-1 overflow-hidden">
+              <div class="bar-fill h-100" style="width:1%"></div>
+            </div>
+            <span class="bar-pct flex-shrink-0">1%</span>
           </div>
         </div>
       </div>
 
       <!-- Reviews Owl Carousel -->
-      <div class="owl-carousel owl-theme reveal" id="reviewsCarousel" style="transition-delay:0.2s">
+      <div class="owl-carousel owl-theme reveal position-relative" id="reviewsCarousel" style="transition-delay:0.2s">
         <!-- Cards injected by JS -->
       </div>
 
@@ -303,85 +320,97 @@
   </section>
 
   <!-- ═══════ CONTACT ═══════ -->
-  <section id="contact">
+  <section id="contact" class="position-relative">
     <div class="container">
 
       <div class="text-center mb-5 reveal">
-        <div class="section-label" style="justify-content:center">تواصل معنا</div>
-        <h2 class="section-title">لنصنع معاً <em>شيئاً</em> استثنائياً</h2>
-        <p class="section-sub mx-auto">هل لديك طلب خاص أو تودّ التعاون معنا؟ راسلنا وسنردّ عليك في أقرب وقت.</p>
+        <div class="section-label d-inline-flex align-items-center gap-2 text-uppercase">تواصل معنا</div>
+        <h2 class="section-title fw-bold mb-3">لنصنع معاً <em class="fst-italic">شيئاً</em> استثنائياً</h2>
+        <p class="section-sub mx-auto fs-6">هل لديك طلب خاص أو تودّ التعاون معنا؟ راسلنا وسنردّ عليك في أقرب وقت.</p>
       </div>
 
       <div class="row g-4 align-items-stretch">
 
         <!-- Info Card -->
         <div class="col-lg-5 reveal-left">
-          <div class="contact-info-card">
-            <div class="contact-info-title">تفاصيل التواصل</div>
+          <div class="contact-info-card h-100">
+            <div class="contact-info-title fw-bold mb-2">تفاصيل التواصل</div>
             <div class="contact-info-sub">
               نسعد بسماع طلباتكم وأفكاركم. فريقنا متاح على مدار الأسبوع.
             </div>
 
-            <div class="contact-item">
-              <div class="contact-item-icon"><i class="bi bi-telephone-fill"></i></div>
+            <div class="contact-item d-flex align-items-center">
+              <div class="contact-item-icon d-flex align-items-center justify-content-center flex-shrink-0"><i
+                  class="bi bi-telephone-fill"></i></div>
               <div class="contact-item-text">
-                <strong>اتصل بنا</strong>
+                <strong class="d-block">اتصل بنا</strong>
                 +20 10 0000 0000
               </div>
             </div>
 
-            <div class="contact-item">
-              <div class="contact-item-icon"><i class="bi bi-envelope-fill"></i></div>
+            <div class="contact-item d-flex align-items-center">
+              <div class="contact-item-icon d-flex align-items-center justify-content-center flex-shrink-0"><i
+                  class="bi bi-envelope-fill"></i></div>
               <div class="contact-item-text">
-                <strong>البريد الإلكتروني</strong>
+                <strong class="d-block">البريد الإلكتروني</strong>
                 hello@artisancrust.com
               </div>
             </div>
 
-            <div class="contact-item">
-              <div class="contact-item-icon"><i class="bi bi-geo-alt-fill"></i></div>
+            <div class="contact-item d-flex align-items-center">
+              <div class="contact-item-icon d-flex align-items-center justify-content-center flex-shrink-0"><i
+                  class="bi bi-geo-alt-fill"></i></div>
               <div class="contact-item-text">
-                <strong>الموقع</strong>
+                <strong class="d-block">الموقع</strong>
                 القاهرة، مصر — الزمالك
               </div>
             </div>
 
-            <div class="contact-item">
-              <div class="contact-item-icon"><i class="bi bi-clock-fill"></i></div>
+            <div class="contact-item d-flex align-items-center">
+              <div class="contact-item-icon d-flex align-items-center justify-content-center flex-shrink-0"><i
+                  class="bi bi-clock-fill"></i></div>
               <div class="contact-item-text">
-                <strong>ساعات العمل</strong>
+                <strong class="d-block">ساعات العمل</strong>
                 السبت – الخميس: 8ص – 10م
               </div>
             </div>
 
-            <div class="social-links-contact">
-              <a href="#" class="social-link" title="Instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="social-link" title="Facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="social-link" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-              <a href="#" class="social-link" title="TikTok"><i class="bi bi-tiktok"></i></a>
+            <div class="social-links-contact d-flex">
+              <a href="#"
+                class="social-link text-decoration-none fs-6 d-flex align-items-center justify-content-center rounded-circle"
+                title="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#"
+                class="social-link text-decoration-none fs-6 d-flex align-items-center justify-content-center rounded-circle"
+                title="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#"
+                class="social-link text-decoration-none fs-6 d-flex align-items-center justify-content-center rounded-circle"
+                title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+              <a href="#"
+                class="social-link text-decoration-none fs-6 d-flex align-items-center justify-content-center rounded-circle"
+                title="TikTok"><i class="bi bi-tiktok"></i></a>
             </div>
           </div>
         </div>
 
         <!-- Form -->
         <div class="col-lg-7 reveal">
-          <div class="contact-form-wrap">
-            <h3 class="form-title">أرسل رسالتك</h3>
+          <div class="contact-form-wrap h-100 d-flex flex-column justify-content-center">
 
             <div id="contactForm">
+              <h3 class="form-title fs-4 fw-bold mb-4">أرسل رسالتك</h3>
               <div class="row g-3">
                 <div class="col-md-6">
-                  <label class="form-label">الاسم الكامل *</label>
+                  <label class="form-label fw-bold">الاسم الكامل *</label>
                   <input type="text" class="form-control" id="name" placeholder="أدخل اسمك الكامل" />
-                  <div class="invalid-feedback" id="name-error">يرجى إدخال الاسم (3 أحرف على الأقل)</div>
+                  <div class="invalid-feedback mt-1" id="name-error">يرجى إدخال الاسم (3 أحرف على الأقل)</div>
                 </div>
                 <div class="col-md-6">
-                  <label class="form-label">البريد الإلكتروني *</label>
+                  <label class="form-label fw-bold">البريد الإلكتروني *</label>
                   <input type="email" class="form-control" id="email" placeholder="example@email.com" dir="ltr" />
                   <div class="invalid-feedback" id="email-error">يرجى إدخال بريد إلكتروني صحيح</div>
                 </div>
                 <div class="col-12">
-                  <label class="form-label" for="service">نوع الطلب</label>
+                  <label class="form-label fw-bold" for="service">نوع الطلب</label>
                   <select class="form-control" id="service">
                     <option value="" disabled selected>اختر نوع الطلب...</option>
                     <option value="french">مخبوزات فرنسية</option>
@@ -393,14 +422,19 @@
                     <option value="wholesale">طلب جملة / شركات</option>
                     <option value="inquiry">استفسار عام</option>
                   </select>
+                  <div class="invalid-feedback" id="service-error">يرجى اختيار نوع الطلب</div>
+
                 </div>
                 <div class="col-12">
-                  <label class="form-label">رسالتك *</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="أخبرنا عن طلبك أو استفسارك..."></textarea>
+                  <label class="form-label fw-bold">رسالتك *</label>
+                  <textarea class="form-control" id="message" rows="5"
+                    placeholder="أخبرنا عن طلبك أو استفسارك..."></textarea>
                   <div class="invalid-feedback" id="message-error">يرجى كتابة رسالتك (10 أحرف على الأقل)</div>
                 </div>
                 <div class="col-12">
-                  <button type="button" class="btn-submit" id="submitBtn" onclick="submitForm()">
+                  <button type="button"
+                    class="btn-submit w-100 border-0 fs-6 fw-bold mt-2 d-flex align-items-center justify-content-center"
+                    id="submitBtn" onclick="submitForm()">
                     <i class="bi bi-send-fill"></i>
                     إرسال الرسالة
                   </button>
@@ -408,9 +442,9 @@
               </div>
             </div>
 
-            <div class="form-success" id="formSuccess">
-              <i class="bi bi-check-circle-fill success-icon"></i>
-              <h4>تم إرسال رسالتك بنجاح!</h4>
+            <div class="form-success text-center py-5 px-3 mx-auto" id="formSuccess">
+              <i class="bi bi-check-circle-fill success-icon mb-3"></i>
+              <h4 class="fs-4 mb-2">تم إرسال رسالتك بنجاح!</h4>
               <p>شكراً لتواصلك معنا. سيردّ عليك فريقنا خلال 24 ساعة.</p>
             </div>
 
@@ -428,72 +462,82 @@
 
         <!-- Brand -->
         <div class="col-lg-4 col-md-6">
-          <div class="footer-brand">L'Artisan <span>Crust</span></div>
-          <p class="footer-tagline">
-            حيث تُصنع الحلاوة بأيدٍ ماهرة وقلبٍ مليء بالشغف.<br/>
+          <div class="footer-brand fw-bold">L'Artisan <span class="fw-normal fst-italic">Crust</span></div>
+          <p class="footer-tagline mb-4">
+            حيث تُصنع الحلاوة بأيدٍ ماهرة وقلبٍ مليء بالشغف.<br />
             كل قطعة قصة تستحق أن تُروى.
           </p>
-          <div class="social-links-contact">
-            <a href="#" class="social-link" title="Instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="social-link" title="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="social-link" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-            <a href="#" class="social-link" title="TikTok"><i class="bi bi-tiktok"></i></a>
-            <a href="#" class="social-link" title="Pinterest"><i class="bi bi-pinterest"></i></a>
+          <div class="social-links-contact d-flex">
+            <a href="#"
+              class="social-link text-decoration-none fs-6 d-flex align-items-center justify-content-center rounded-circle"
+              title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#"
+              class="social-link text-decoration-none fs-6 d-flex align-items-center justify-content-center rounded-circle"
+              title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#"
+              class="social-link text-decoration-none fs-6 d-flex align-items-center justify-content-center rounded-circle"
+              title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="#"
+              class="social-link text-decoration-none fs-6 d-flex align-items-center justify-content-center rounded-circle"
+              title="TikTok"><i class="bi bi-tiktok"></i></a>
+            <a href="#"
+              class="social-link text-decoration-none fs-6 d-flex align-items-center justify-content-center rounded-circle"
+              title="Pinterest"><i class="bi bi-pinterest"></i></a>
           </div>
         </div>
 
         <!-- Quick Links -->
         <div class="col-lg-2 col-md-6">
-          <div class="footer-heading">روابط سريعة</div>
-          <ul class="footer-links">
-            <li><a href="#hero"><i class="bi bi-chevron-left"></i> الرئيسية</a></li>
-            <li><a href="#about"><i class="bi bi-chevron-left"></i> من نحن</a></li>
-            <li><a href="#portfolio"><i class="bi bi-chevron-left"></i> معرض الأعمال</a></li>
-            <li><a href="#contact"><i class="bi bi-chevron-left"></i> تواصل معنا</a></li>
+          <div class="footer-heading fw-bold text-uppercase">روابط سريعة</div>
+          <ul class="footer-links list-unstyled p-0">
+            <li><a href="#hero" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-chevron-left"></i> الرئيسية</a></li>
+            <li><a href="#about" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-chevron-left"></i> من نحن</a></li>
+            <li><a href="#portfolio" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-chevron-left"></i> معرض الأعمال</a></li>
+            <li><a href="#reviews" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-chevron-left"></i> آراء العملاء</a></li>            
+            <li><a href="#contact" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-chevron-left"></i> تواصل معنا</a></li>
+
           </ul>
         </div>
 
         <!-- Categories -->
         <div class="col-lg-3 col-md-6">
-          <div class="footer-heading">تشكيلاتنا</div>
-          <ul class="footer-links">
-            <li><a href="#portfolio"><i class="bi bi-chevron-left"></i> مخبوزات فرنسية</a></li>
-            <li><a href="#portfolio"><i class="bi bi-chevron-left"></i> حلويات شرقية</a></li>
-            <li><a href="#portfolio"><i class="bi bi-chevron-left"></i> كيك وتورتات</a></li>
-            <li><a href="#portfolio"><i class="bi bi-chevron-left"></i> شوكولاتة فاخرة</a></li>
-            <li><a href="#portfolio"><i class="bi bi-chevron-left"></i> تشكيلة موسمية</a></li>
+          <div class="footer-heading fw-bold text-uppercase">تشكيلاتنا</div>
+          <ul class="footer-links list-unstyled p-0">
+            <li><a href="#portfolio" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-chevron-left"></i> مخبوزات فرنسية</a></li>
+            <li><a href="#portfolio" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-chevron-left"></i> حلويات شرقية</a></li>
+            <li><a href="#portfolio" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-chevron-left"></i> كيك وتورتات</a></li>
+            <li><a href="#portfolio" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-chevron-left"></i> شوكولاتة فاخرة</a></li>
+            <li><a href="#portfolio" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-chevron-left"></i> تشكيلة موسمية</a></li>
           </ul>
         </div>
 
         <!-- Contact -->
         <div class="col-lg-3 col-md-6">
-          <div class="footer-heading">تواصل معنا</div>
-          <ul class="footer-links">
-            <li><a href="tel:+201000000000"><i class="bi bi-telephone"></i> +20 10 0000 0000</a></li>
-            <li><a href="mailto:hello@artisancrust.com"><i class="bi bi-envelope"></i> hello@artisancrust.com</a></li>
-            <li><a href="#"><i class="bi bi-geo-alt"></i> الزمالك، القاهرة، مصر</a></li>
-            <li><a href="#"><i class="bi bi-clock"></i> السبت – الخميس: 8ص – 10م</a></li>
+          <div class="footer-heading fw-bold text-uppercase">تواصل معنا</div>
+          <ul class="footer-links list-unstyled p-0">
+            <li><a href="tel:+201000000000" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-telephone"></i> +20 10 0000 0000</a></li>
+            <li><a href="mailto:hello@artisancrust.com" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-envelope"></i> hello@artisancrust.com</a></li>
+            <li><a href="#" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-geo-alt"></i> الزمالك، القاهرة، مصر</a></li>
+            <li><a href="#" class="d-inline-flex align-items-center gap-2 text-decoration-none"><i class="bi bi-clock"></i> السبت – الخميس: 8ص – 10م</a></li>
           </ul>
         </div>
 
       </div>
 
-      <div class="footer-ornament">✦ ✦ ✦</div>
+      <!-- <div class="footer-ornament text-center my-3 mx-0">✦ ✦ ✦</div> -->
 
-      <div class="footer-bottom">
+      <div class="footer-bottom d-flex flex-wrap justify-content-around align-items-center gap-3 mt-5 px-0 py-4">
         <p class="footer-copy mb-0">
-          © 2026 <span>L'Artisan Crust</span>. جميع الحقوق محفوظة.
+          © 2026 <span class="fw-semibold">L'Artisan Crust</span>. جميع الحقوق محفوظة.
         </p>
-        <div class="d-flex gap-3">
-          <a href="#" class="footer-link">سياسة الخصوصية</a>
-          <a href="#" class="footer-link">شروط الاستخدام</a>
-        </div>
+          <a href="#" class="footer-link text-decoration-none">سياسة الخصوصية</a>
+          <a href="#" class="footer-link text-decoration-none">شروط الاستخدام</a>
       </div>
     </div>
   </footer>
 
   <!-- Back to Top -->
-  <button id="backToTop" title="العودة للأعلى">
+  <button id="backToTop" title="العودة للأعلى" class="position-fixed border-0 rounded-circle fs-6 d-flex align-items-center justify-content-center">
     <i class="bi bi-chevron-up"></i>
   </button>
 
@@ -510,4 +554,5 @@
   <script src="js/script.js"></script>
 
 </body>
+
 </html>
