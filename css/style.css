@@ -179,6 +179,7 @@
       color: var(--clr-brown);
       line-height: 1.15;
       margin-bottom: 1.4rem;
+      transition-delay:0.1s;
     }
     .hero-title .highlight {
       color: var(--clr-gold);
@@ -198,6 +199,10 @@
       max-width: 480px;
       margin-bottom: 2rem;
       line-height: 1.85;
+      transition-delay:0.2s;
+    }
+    .hero-sec-btns {
+      transition-delay:0.3s;
     }
 
     .btn-primary-cta {
@@ -393,6 +398,7 @@
     /* Filter Buttons */
     .filter-wrap {
       gap: 10px;
+      transition-delay:0.1s;
     }
     .filter-btn {
       background: var(--clr-cream);
